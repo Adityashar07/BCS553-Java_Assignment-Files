@@ -1,0 +1,13 @@
+// Create the array int[] marks = {45,67,80,52,90}.
+// Count the values greater then 60 and print the count as Count: followed by the number.
+
+public class Main {
+    public static void main(String[] args) {
+        int[] marks = {45, 67, 80, 52, 90};
+        int count = 0;
+        for (int value : marks) {
+            if (value > 60) count++;
+        }
+        System.out.println("Count: " + count);
+    }
+}
